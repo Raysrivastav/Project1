@@ -1,62 +1,28 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="40" x="-241" y="-291">
+  <block type="movement_forward" id="261" x="-292" y="-765">
     <next>
-      <block type="robot_delay" id="42" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="49">
-            <field name="NUM">5000</field>
-          </block>
-        </value>
+      <block type="robot_delay" id="269" inline="true">
         <next>
-          <block type="movement_stop" id="115">
+          <block type="movement_left" id="295">
             <next>
-              <block type="led_select" id="82" inline="true">
-                <field name="ACTION">ON</field>
-                <value name="LED">
-                  <block type="math_number" id="98">
-                    <field name="NUM">5000</field>
-                  </block>
-                </value>
+              <block type="robot_delay" id="297" inline="true">
                 <next>
-                  <block type="oled_color" id="91">
-                    <field name="OBJECT">GREEN</field>
+                  <block type="movement_forward" id="316">
                     <next>
-                      <block type="controls_repeat" id="186" inline="true">
-                        <value name="TIMES">
-                          <block type="math_number" id="251">
-                            <field name="NUM">2</field>
-                          </block>
-                        </value>
-                        <statement name="DO">
-                          <block type="movement_forward" id="196">
+                      <block type="robot_delay" id="318" inline="true">
+                        <next>
+                          <block type="movement_stop" id="350">
                             <next>
-                              <block type="robot_delay" id="197" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="198">
-                                    <field name="NUM">5000</field>
+                              <block type="led_select" id="327" inline="true">
+                                <field name="ACTION">ON</field>
+                                <value name="LED">
+                                  <block type="sensor_light" id="358">
+                                    <field name="LIGHT">RIGHT</field>
                                   </block>
                                 </value>
-                                <next>
-                                  <block type="led_select" id="217" inline="true">
-                                    <field name="ACTION">ON</field>
-                                    <value name="LED">
-                                      <block type="math_number" id="244">
-                                        <field name="NUM">5000</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="oled_color" id="226">
-                                        <field name="OBJECT">GREEN</field>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
                               </block>
                             </next>
                           </block>
-                        </statement>
-                        <next>
-                          <block type="movement_stop" id="237"></block>
                         </next>
                       </block>
                     </next>
