@@ -22,6 +22,11 @@
                     <field name="OBJECT">BLACK</field>
                     <next>
                       <block type="controls_repeat" id="186" inline="true">
+                        <value name="TIMES">
+                          <block type="math_number" id="251">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
                         <statement name="DO">
                           <block type="movement_forward" id="196">
                             <next>
