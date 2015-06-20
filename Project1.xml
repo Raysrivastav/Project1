@@ -53,11 +53,6 @@
                                                     <field name="NUM">2000</field>
                                                   </block>
                                                 </value>
-                                                <next>
-                                                  <block type="multimedia_displaybmp" id="471">
-                                                    <field name="BMP">Ray</field>
-                                                  </block>
-                                                </next>
                                               </block>
                                             </next>
                                           </block>
