@@ -19,7 +19,7 @@
                 </value>
                 <next>
                   <block type="oled_color" id="91">
-                    <field name="OBJECT">BLACK</field>
+                    <field name="OBJECT">GREEN</field>
                     <next>
                       <block type="controls_repeat" id="186" inline="true">
                         <value name="TIMES">
@@ -48,7 +48,7 @@
                                         </value>
                                         <next>
                                           <block type="oled_color" id="226">
-                                            <field name="OBJECT">BLACK</field>
+                                            <field name="OBJECT">GREEN</field>
                                           </block>
                                         </next>
                                       </block>
