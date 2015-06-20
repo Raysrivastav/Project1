@@ -29,7 +29,7 @@
                           <block type="movement_stop" id="350">
                             <next>
                               <block type="led_select" id="327" inline="true">
-                                <field name="ACTION">ON</field>
+                                <field name="ACTION">FLASH</field>
                                 <value name="LED">
                                   <block type="sensor_light" id="358">
                                     <field name="LIGHT">RIGHT</field>
